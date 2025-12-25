@@ -2,9 +2,7 @@
   "pythonPath": "venv/Scripts/python.exe",
   "venvPath": ".",
   "venv": "venv",
-  "extraPaths": [
-    "src"
-  ],
+  "extraPaths": ["src"],
   "reportMissingImports": true,
   "reportMissingTypeStubs": false,
   "typeCheckingMode": "basic"

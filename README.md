@@ -21,7 +21,7 @@ pip install pywinauto-pytest
 ### 从源码安装
 
 ```bash
-git clone https://github.com/yourusername/pywinauto-pytest.git
+git clone https://github.com/walkzzz/pywinauto-pytest.git
 cd pywinauto-pytest
 pip install -e .
 ```
