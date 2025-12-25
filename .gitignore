@@ -1,0 +1,52 @@
+# 虚拟环境
+venv/
+.env/
+
+# 构建输出
+build/
+dist/
+*.egg-info/
+
+# 本地仓库
+local-repo/
+
+# 测试缓存
+.pytest_cache/
+.benchmarks/
+
+# 日志文件
+*.log
+log.html
+report.html
+output.xml
+
+# IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 操作系统文件
+Thumbs.db
+.DS_Store
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+
+# Pyright缓存
+.pyright/
+
+# 测试覆盖率报告
+htmlcov/
+.coverage
+
+# 执行文件
+*.exe
+*.dll
+*.so
+*.dylib

@@ -1,0 +1,85 @@
+{
+  "test_suite": "Calculator Tests",
+  "tests": [
+    {
+      "name": "加法测试",
+      "steps": [
+        {
+          "action": "start_application",
+          "target": "calc.exe"
+        },
+        {
+          "action": "click",
+          "target": "Button",
+          "locator": "1"
+        },
+        {
+          "action": "click",
+          "target": "Button",
+          "locator": "+"
+        },
+        {
+          "action": "click",
+          "target": "Button",
+          "locator": "2"
+        },
+        {
+          "action": "click",
+          "target": "Button",
+          "locator": "="
+        },
+        {
+          "action": "assert_text",
+          "target": "Edit",
+          "locator": "",
+          "expected": "3"
+        }
+      ],
+      "teardown": [
+        {
+          "action": "close_application"
+        }
+      ]
+    },
+    {
+      "name": "减法测试",
+      "steps": [
+        {
+          "action": "start_application",
+          "target": "calc.exe"
+        },
+        {
+          "action": "click",
+          "target": "Button",
+          "locator": "5"
+        },
+        {
+          "action": "click",
+          "target": "Button",
+          "locator": "-"
+        },
+        {
+          "action": "click",
+          "target": "Button",
+          "locator": "3"
+        },
+        {
+          "action": "click",
+          "target": "Button",
+          "locator": "="
+        },
+        {
+          "action": "assert_text",
+          "target": "Edit",
+          "locator": "",
+          "expected": "2"
+        }
+      ],
+      "teardown": [
+        {
+          "action": "close_application"
+        }
+      ]
+    }
+  ]
+}
