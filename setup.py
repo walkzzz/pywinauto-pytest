@@ -14,7 +14,7 @@ setup(
     description='A pytest plugin for pywinauto UI automation testing, supporting multiple test case formats and Allure reporting',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/pywinauto-pytest',
+    url='https://github.com/walkzzz/pywinauto-pytest',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     install_requires=requirements,
